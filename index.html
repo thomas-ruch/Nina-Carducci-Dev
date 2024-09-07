@@ -21,8 +21,8 @@
 	<script src="./assets/scripts.js"></script>
 </head>
 
-<body>
-	<header itemscope itemtype="https://schema.org/Person">
+<body itemscope itemtype="https://schema.org/LocalBusiness">
+	<header>
 		<h1 itemprop="name">Nina Carducci</h1>
 		<nav>
 			<ul>
@@ -144,7 +144,7 @@
 							en Île-de-France pour réaliser vos photos</p>
 					</div>
 					<div class="service__price">
-						<span class="price">350€/demi journée</span>
+						<span itemprop="priceRange" class="price">350€/demi journée</span>
 						<span>Matériel, déplacement inclus</span>
 					</div>
 				</article>
@@ -155,7 +155,7 @@
 							optimal pour vos publications</p>
 					</div>
 					<div class="service__price">
-						<span class="price">50€/photo</span>
+						<span itemprop="priceRange" class="price">50€/photo</span>
 						<span>2 AR par photo</span>
 					</div>
 				</article>
@@ -166,7 +166,7 @@
 							un album photo personnalisé</p>
 					</div>
 					<div class="service__price">
-						<span class="price">400€ album A4</span>
+						<span itemprop="priceRange" class="price">400€ album A4</span>
 						<span>30 pages recto/verso</span>
 					</div>
 				</article>
@@ -197,10 +197,10 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/camera.webp" alt="Appareil photo">
+					<img itemprop="image" src="./assets/images/camera.webp" alt="Appareil photo">
 				</div>
 			</div>
-			<div id="address" class="container" itemscope itemtype="https://schema.org/LocalBusiness">
+			<div id="address" class="container">
 				<h3>Contact</h3>
 				<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
