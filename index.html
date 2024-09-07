@@ -22,8 +22,8 @@
 </head>
 
 <body>
-	<header>
-		<h1>Nina Carducci</h1>
+	<header itemscope itemtype="https://schema.org/Person">
+		<h1 itemprop="name">Nina Carducci</h1>
 		<nav>
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -200,11 +200,14 @@
 					<img src="./assets/images/camera.webp" alt="Appareil photo">
 				</div>
 			</div>
-			<div itemscope itemtype="https://schema.org/LocalBusiness">
+			<div id="address" class="container" itemscope itemtype="https://schema.org/LocalBusiness">
+				<h3>Contact</h3>
 				<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
 					<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
-					<span itemprop="postalCode">F-33200</span>
-					<span itemprop="addressLocality">Bordeaux</span>
+					<div>
+						<span itemprop="addressLocality">Bordeaux</span>
+						<span itemprop="postalCode">F-33200</span>
+					</div>
 				</div>
 				<span itemprop="telephone">05 56 67 78 89</span>
 				<span itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">du lundi au vendredi - 10h à 19h</span>

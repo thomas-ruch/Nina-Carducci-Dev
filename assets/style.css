@@ -229,6 +229,8 @@ blockquote {
 }
 
 #contact {
+	display:flex;
+	flex-direction: column;
 	margin: auto;
 	background-color: #D8D3A8;
 	position: relative;
@@ -238,6 +240,13 @@ blockquote {
 
 #contact .container {
 	display: flex;
+}
+
+#address {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 30px;
 }
 
 .picture.right::before {
