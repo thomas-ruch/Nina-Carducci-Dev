@@ -66,6 +66,7 @@ nav a {
 
 #slider {
 	position: relative;
+	background-color: black;
 }
 
 #about {
@@ -125,7 +126,7 @@ nav a {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #8C750E;
 	border-radius: 0;
 }
 
